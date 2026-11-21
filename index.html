@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOVERA | Hotel & Suites</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%230D0C0A'/><path d='M50 20L58.5 39.5L80 42.5L64.5 57.5L68.5 79L50 69L31.5 79L35.5 57.5L20 42.5L41.5 39.5Z' fill='%23DFC08A'/></svg>">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="preloader">
+        <div class="loader-content">
+            <div class="loader-star"><i class='bx bx-star'></i></div>
+            <div class="loader-text">NOVERA</div>
+            <div class="loader-bar"><span></span></div>
+        </div>
+    </div>
+
+    <header class="navbar" id="navbar">
+        <a href="#" class="logo">
+            <div class="logo-icon"><i class='bx bx-star'></i></div>
+            <div class="logo-text">
+                <span>NOVERA</span>
+                <small>HOTEL & SUITES</small>
+            </div>
+        </a>
+
+        <nav class="nav-links">
+            <a href="#home" class="active">HOME</a>
+            <a href="#residences">ROOMS & SUITES</a>
+            <a href="#facilities">FACILITIES & WELLNESS</a>
+            <a href="#facilities">DINING</a>
+            <a href="#escapes">CURATED OFFERS</a>
+            <a href="#philosophy">STORY</a>
+            <a href="#footer">CONTACT</a>
+        </nav>
+
+        <div class="nav-actions">
+            <button class="btn-gold open-modal" data-title="Reserve a Suite">RESERVE A SUITE</button>
+            <div class="profile-avatar">
+                <img src="img/unnamed.jpg" alt="User Profile" class="avatar-img">
+            </div>
+        </div>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="hero-bg"></div>
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content reveal">
+            <div class="hero-badges">
+                <span class="badge"><i class='bx bxs-circle'></i> WINTER SANCTUARY SEASON • 94% BOOKED</span>
+                <span class="badge"><i class='bx bx-medal'></i> FORBES 5-STAR VERIFIED 2025</span>
+                <span class="badge"><i class='bx bx-key'></i> MICHELIN 3-KEY DISTINCTION</span>
+            </div>
+
+            <h1 class="hero-title">
+                Where Timeless <br>
+                <em>Grandeur</em> Meets Modern <br>
+                Serenity.
+            </h1>
+
+            <p class="hero-desc">
+                An architectural sanctuary nestled above the metropolitan pulse. Experience intuitive majordomo service, subterranean sommelier vaults, and restorative hydrothermal sanctuaries.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#residences" class="btn-gold">EXPLORE ACCOMMODATIONS</a>
+                <button class="btn-dark open-modal" data-title="Novera Experience Film">
+                    <i class='bx bx-play-circle'></i> PLAY EXPERIENCE FILM
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section class="booking-wrapper reveal">
+        <div class="booking-bar">
+            <div class="booking-item">
+                <span class="label">STAY SCHEDULE <i class='bx bx-calendar'></i></span>
+                <h4>Oct 24 — Oct 28</h4>
+                <small>4 Nights • Autumn Sanctuary</small>
+            </div>
+            <div class="booking-item">
+                <span class="label">RESIDENCE TIER <i class='bx bx-building-house'></i></span>
+                <h4>Penthouse Skyline Suite</h4>
+                <small>1,840 sq ft • Private Sky Terrace</small>
+            </div>
+            <div class="booking-item">
+                <span class="label">GUESTS & BUTLERAGE <i class='bx bx-bell'></i></span>
+                <h4>2 Guests • 1 Suite</h4>
+                <small>Dedicated Majordomo Included</small>
+            </div>
+            <div class="booking-action">
+                <div class="price-tag">
+                    <span>STARTING FOLIO</span>
+                    <strong>$680 <small>/ night</small></strong>
+                </div>
+                <button class="btn-gold open-modal" data-title="Check Availability">CHECK AVAILABILITY & RESERVE</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="section residences-section" id="residences">
+        <div class="section-header reveal">
+            <div>
+                <span class="sub-label">THE SANCTUARY COLLECTION</span>
+                <h2 class="section-title">Bespoke Architectural Residences</h2>
+                <p class="section-desc">Each residence is individually curated with hand-combed natural stone, custom Italian millwork, acoustic velvet treatments, and uninterrupted vistas of the skyline or private gardens.</p>
+            </div>
+            <div class="filter-tabs">
+                <button class="tab-btn active" data-filter="all">ALL RESIDENCES (18)</button>
+                <button class="tab-btn" data-filter="penthouse">PENTHOUSES</button>
+                <button class="tab-btn" data-filter="villa">GARDEN VILLAS</button>
+                <button class="tab-btn" data-filter="executive">EXECUTIVE</button>
+            </div>
+        </div>
+
+        <div class="residences-grid">
+            <div class="residence-card main-card reveal" data-category="penthouse">
+                <div class="img-box main-img-box">
+                    <img src="img/unnamed.jpg" alt="Penthouse Skyline Suite">
+                    <div class="card-tags">
+                        <span class="tag-gold">MASTER PENTHOUSE</span>
+                        <span class="tag-dark">FLOOR 42</span>
+                    </div>
+                    <div class="price-pill">$1,450 / night</div>
+                </div>
+                <div class="card-body">
+                    <div class="card-title-row">
+                        <h3>Penthouse Skyline Suite</h3>
+                        <span class="suite-no">SUITE NO. 4201</span>
+                    </div>
+                    <p>Hovering over the skyline with a 360-degree glass perimeter, dedicated butler's pantry, imperial marble soaking tub overlooking city lights, and sound-isolated private cinema salon.</p>
+                    
+                    <div class="specs-grid">
+                        <div><span>SURFACE AREA</span><strong>1,840 sq ft (171 m²)</strong></div>
+                        <div><span>BEDDING</span><strong>Emperor Grand King</strong></div>
+                        <div><span>BUTLER SERVICE</span><strong>24/7 Dedicated</strong></div>
+                        <div><span>TERRACE</span><strong>450 sq ft Sunset Deck</strong></div>
+                    </div>
+
+                    <div class="amenities-inline">
+                        <span><i class='bx bx-wine'></i> PRIVATE SOMMELIER BAR</span>
+                        <span><i class='bx bx-water'></i> HYDRO-SPA BATH</span>
+                        <span><i class='bx bx-wifi'></i> 10GBPS WI-FI</span>
+                    </div>
+
+                    <div class="card-footer-btns">
+                        <button class="btn-outline open-modal" data-title="Floorplan & Folio">FLOORPLAN & FOLIO</button>
+                        <button class="btn-gold open-modal" data-title="Reserve Penthouse">RESERVE PENTHOUSE</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="side-cards">
+                <div class="residence-card side-card reveal" data-category="villa">
+                    <div class="img-box side-img-box">
+                        <img src="img/unnamed (1).jpg" alt="Royal Garden Villa">
+                        <div class="card-tags"><span class="tag-dark">PRIVATE COURTYARD</span></div>
+                        <div class="price-pill">$920 / night</div>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-title-row">
+                            <h3>Royal Garden Villa</h3>
+                            <span class="area-small">915 sq ft (85 m²)</span>
+                        </div>
+                        <p>Tucked within the estate's private bamboo grove. Features heated plunge pool, open-air rainwater bathing pavilion, and Japanese stone garden.</p>
+                        <div class="side-card-bottom">
+                            <span class="gold-note">Personal Gardener & Tea Sommelier</span>
+                            <button class="btn-dark-sm open-modal" data-title="Reserve Royal Garden Villa">RESERVE</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="residence-card side-card reveal" data-category="executive">
+                    <div class="img-box side-img-box">
+                        <img src="img/unnamed (2).jpg" alt="Executive Grand Deluxe">
+                        <div class="card-tags"><span class="tag-dark">CITY SANCTUARY</span></div>
+                        <div class="price-pill">$680 / night</div>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-title-row">
+                            <h3>Executive Grand Deluxe</h3>
+                            <span class="area-small">590 sq ft (55 m²)</span>
+                        </div>
+                        <p>Designed for effortless transatlantic productivity and deep restoration. Ergonomic leather workstation, artisan botanical minibar, and Dyson grooming suite.</p>
+                        <div class="side-card-bottom">
+                            <span class="gold-note">Complimentary Valet & Laundry</span>
+                            <button class="btn-dark-sm open-modal" data-title="Reserve Executive Grand Deluxe">RESERVE</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section facilities-section" id="facilities">
+        <div class="section-header reveal">
+            <div>
+                <span class="sub-label">EXTRAORDINARY LIVING</span>
+                <h2 class="section-title">Curated Facilities & Gastronomy</h2>
+                <p class="section-desc">From tranquil cantilevered infinity terraces to crystalline underground cellars, each space is engineered as a sensory retreat.</p>
+            </div>
+        </div>
+
+        <div class="facilities-two-col">
+            <div class="facility-card reveal">
+                <div class="img-box facility-img-box">
+                    <img src="img/unnamed (3).jpg" alt="The Infinity Sky Pool & Cabanas">
+                    <div class="card-tags"><span class="tag-dark">LEVEL 36 SKY TERRACE</span></div>
+                </div>
+                <div class="facility-body">
+                    <div class="card-title-row">
+                        <h3>The Infinity Sky Pool & Cabanas</h3>
+                        <span class="gold-time">DAILY 06:00 — 23:00</span>
+                    </div>
+                    <p>Suspended 400 feet above the avenue, our cantilevered infinity reservoir features heated mineral water, private Calacatta marble cabanas with cooling mist infusions, and dedicated tableside sunset mixology.</p>
+                    <div class="stats-row">
+                        <div><strong>32°C</strong><span>REGULATED TEMP</span></div>
+                        <div><strong>8</strong><span>PRIVATE CABANAS</span></div>
+                        <div><strong>360°</strong><span>SUNSET EXPOSURE</span></div>
+                    </div>
+                    <a href="#" class="gold-link open-modal" data-title="Reserve a Cabana">RESERVE A CABANA →</a>
+                </div>
+            </div>
+
+            <div class="facility-card reveal">
+                <div class="img-box facility-img-box">
+                    <img src="img/unnamed (4).jpg" alt="L'Aura Dining & Sommelier Vault">
+                    <div class="card-tags"><span class="tag-dark">THREE MICHELIN KEYS</span></div>
+                </div>
+                <div class="facility-body">
+                    <div class="card-title-row">
+                        <h3>L'Aura Dining & Sommelier Vault</h3>
+                        <span class="gold-time">CHEF JULIEN VANE</span>
+                    </div>
+                    <p>An intimate culinary cathedral offering an 8-course seasonal progression that celebrates rare regional harvests, paired with treasures from our 1,200-vintage temperature-stabilized cellar.</p>
+                    <div class="stats-row">
+                        <div><strong>8</strong><span>TASTING COURSES</span></div>
+                        <div><strong>1,200</strong><span>RARE LABELS</span></div>
+                        <div><strong>3</strong><span>MICHELIN STARS</span></div>
+                    </div>
+                    <a href="#" class="gold-link open-modal" data-title="Request Table & Sommelier Pairing">REQUEST TABLE & SOMMELIER PAIRING →</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="mini-services-grid reveal">
+            <div class="mini-card">
+                <div class="mini-icon"><i class='bx bx-spa'></i></div>
+                <h4>Aura Hydrothermal Spa</h4>
+                <p>Private eucalyptus vapor caverns, Finnish snow rooms, and regenerative 24K gold biological treatments.</p>
+                <span class="mini-footer">OPEN 07:00 — 22:00</span>
+            </div>
+            <div class="mini-card">
+                <div class="mini-icon"><i class='bx bx-car'></i></div>
+                <h4>Maybach House Fleet</h4>
+                <p>Chauffeured tarmac transfers directly to the private suite foyer with seamless luggage security handling.</p>
+                <span class="mini-footer">24/7 ON DEMAND</span>
+            </div>
+            <div class="mini-card">
+                <div class="mini-icon"><i class='bx bxs-plane-take-off'></i></div>
+                <h4>Skyport Helipad Terminal</h4>
+                <p>Rooftop twin-engine aviation clearance for regional coastal flights and rapid private jet connectivity.</p>
+                <span class="mini-footer">PRIVATE CONCIERGE LINE</span>
+            </div>
+            <div class="mini-card">
+                <div class="mini-icon"><i class='bx bx-drink'></i></div>
+                <h4>The Gilded Library Bar</h4>
+                <p>Artisanal vintage cognac flight tastings, antique humidor salon, and discrete midnight conversations.</p>
+                <span class="mini-footer">DAILY 17:00 — 02:00</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="section escapes-section" id="escapes">
+        <div class="section-header reveal">
+            <div>
+                <span class="sub-label">PRIVATE RESIDENCIES</span>
+                <h2 class="section-title">Curated Seasonal Escapes</h2>
+            </div>
+            <a href="#" class="gold-link">VIEW ALL 6 CURATED PACKAGES →</a>
+        </div>
+
+        <div class="escapes-grid">
+            <div class="escape-card reveal">
+                <div class="escape-top">
+                    <span class="pill-tag">SIGNATURE HONEYMOON & ESCAPE</span>
+                    <span class="nights-txt">3 NIGHTS MINIMUM</span>
+                </div>
+                <h3>The Celestial Romantic Journey</h3>
+                <p>Unwind in our panoramic skyline suites with vintage Dom Pérignon on arrival, private after-hours thermal bathing ritual for two at Aura Spa, daily caviar breakfast in bed, and guaranteed late checkout until 16:00.</p>
+                <ul class="escape-list">
+                    <li><i class='bx bx-check-circle'></i> Vintage Champagne & Osetra Caviar welcome presentation</li>
+                    <li><i class='bx bx-check-circle'></i> Two-hour private moonlight spa pavilion reservation</li>
+                    <li><i class='bx bx-check-circle'></i> Complimentary Maybach airport chauffeur transfers</li>
+                </ul>
+                <div class="escape-bottom">
+                    <div>
+                        <span class="exp-label">COMPLETE 3-NIGHT EXPERIENCE</span>
+                        <div class="exp-price">$2,840 <small>($3,550 value)</small></div>
+                    </div>
+                    <button class="btn-gold open-modal" data-title="Reserve Curated Escape">RESERVE CURATED ESCAPE</button>
+                </div>
+            </div>
+
+            <div class="escape-card reveal">
+                <div class="escape-top">
+                    <span class="pill-tag">CULINARY IMMERSION</span>
+                    <span class="nights-txt">2 NIGHTS MINIMUM</span>
+                </div>
+                <h3>The Grand Cellar & Epicurean Tour</h3>
+                <p>Reserved center-stage dining at L'Aura Chef's Table, behind-the-scenes masterclass with our head sommelier sampling Premier Grand Cru Classé rarities, and a personalized monogrammed culinary gift.</p>
+                <ul class="escape-list">
+                    <li><i class='bx bx-check-circle'></i> Guaranteed Chef's Counter seating for 8-course degustation</li>
+                    <li><i class='bx bx-check-circle'></i> Private tasting of 5 historic Bordeaux & Burgundy vintages</li>
+                    <li><i class='bx bx-check-circle'></i> Executive Grand Deluxe accommodation with daily breakfast</li>
+                </ul>
+                <div class="escape-bottom">
+                    <div>
+                        <span class="exp-label">COMPLETE 2-NIGHT EXPERIENCE</span>
+                        <div class="exp-price">$1,950 <small>($2,400 value)</small></div>
+                    </div>
+                    <button class="btn-gold open-modal" data-title="Reserve Epicurean Tour">RESERVE EPICUREAN TOUR</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section philosophy-section" id="philosophy">
+        <div class="philosophy-grid">
+            <div class="philosophy-img-wrap reveal">
+                <div class="img-box philosophy-img-box">
+                    <img src="img/unnamed (5).jpg" alt="Novera Exterior Architecture">
+                </div>
+                <div class="heritage-badge">
+                    <span>ARCHITECTURAL HERITAGE</span>
+                    <p>Designed by Studio de Montalivet & Partners • Commissioned 1928</p>
+                </div>
+            </div>
+
+            <div class="philosophy-content reveal">
+                <span class="sub-label">THE NOVERA PHILOSOPHY</span>
+                <blockquote>
+                    “We did not build Novera to merely host travelers. We sculpted an enclave where privacy is treated as the ultimate modern rarity, and every gesture anticipates the unspoken.”
+                </blockquote>
+
+                <div class="director-info">
+                    <div class="director-initials">HD</div>
+                    <div>
+                        <h4>Henri de Montalivet</h4>
+                        <span>Managing General Director & Conservator</span>
+                    </div>
+                </div>
+
+                <div class="awards-grid">
+                    <div class="award-box">
+                        <span class="award-source">CONDÉ NAST TRAVELER</span>
+                        <h5>"The World's Gold List 2024"</h5>
+                        <p>Ranked #1 Urban Luxury Sanctuary in North America.</p>
+                    </div>
+                    <div class="award-box">
+                        <span class="award-source">ARCHITECTURAL DIGEST</span>
+                        <h5>"Exemplary Modern Restoration"</h5>
+                        <p>Celebrated for master stone masonry and acoustic privacy.</p>
+                    </div>
+                    <div class="award-box">
+                        <span class="award-source">MICHELIN GUIDE</span>
+                        <h5>"Three Michelin Keys"</h5>
+                        <p>Awarded for peerless character, service, and gastronomy.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer" id="footer">
+        <div class="footer-top">
+            <div class="footer-brand">
+                <a href="#" class="logo">
+                    <div class="logo-icon"><i class='bx bx-star'></i></div>
+                    <div class="logo-text"><span>NOVERA</span></div>
+                </a>
+                <p>An enclave of understated grandeur where bespoke hospitality, classical architectural beauty, and discreet luxury coalesce.</p>
+                <div class="concierge-box">
+                    <span>DIRECT CONCIERGE LINE</span>
+                    <strong>+1 800-NOVERA-VIP</strong>
+                    <a href="mailto:concierge@noverahotel.com">concierge@noverahotel.com</a>
+                </div>
+            </div>
+
+            <div class="footer-links">
+                <h5>THE RESIDENCE</h5>
+                <a href="#">Signature Suites</a>
+                <a href="#">Penthouse Reserve</a>
+                <a href="#">Aura Thermal Spa</a>
+                <a href="#">The Gilded Salon</a>
+                <a href="#">The Cellar Tasting</a>
+            </div>
+
+            <div class="footer-links">
+                <h5>CURATIONS</h5>
+                <a href="#">Bespoke Escapes</a>
+                <a href="#">Private Aviation</a>
+                <a href="#">Heritage & Craft</a>
+                <a href="#">Private Events</a>
+                <a href="#">Press Folio</a>
+            </div>
+
+            <div class="footer-newsletter">
+                <h5>THE GAZETTE & FOLIO</h5>
+                <p>Receive seasonal private collections, culinary debuts, and exclusive member invitations.</p>
+                <form class="newsletter-form" id="newsletterForm">
+                    <input type="email" placeholder="Your email address" required>
+                    <button type="submit" class="btn-gold">SUBSCRIBE</button>
+                </form>
+                <div class="address-box">
+                    <span>ADDRESS</span>
+                    <p>740 Grand Prestige Boulevard, Suite 100, Beverly Hills, CA 90210</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-middle">
+            <div class="footer-badges">
+                <div class="f-badge">
+                    <i class='bx bx-award'></i>
+                    <div><strong>FORBES TRAVEL GUIDE</strong><span>5-Star Award 2024</span></div>
+                </div>
+                <div class="f-badge">
+                    <i class='bx bx-key'></i>
+                    <div><strong>MICHELIN GUIDE</strong><span>Three Keys Distinction 2025</span></div>
+                </div>
+                <div class="f-badge">
+                    <i class='bx bx-star'></i>
+                    <div><strong>LEADING HOTELS</strong><span>Of The World Member</span></div>
+                </div>
+            </div>
+
+            <div class="social-links">
+                <span>FOLLOW</span>
+                <a href="#">Instagram</a>
+                <a href="#">LinkedIn</a>
+                <a href="#">Journal</a>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2025 NOVERA HOTEL & SUITES. All rights reserved.</p>
+            <div class="legal-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Residency</a>
+                <a href="#">Accessibility</a>
+                <a href="#">Sitemap</a>
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal-backdrop" id="modalBackdrop">
+        <div class="modal-box">
+            <button class="modal-close" id="modalClose"><i class='bx bx-x'></i></button>
+            <span class="sub-label">NOVERA CONCIERGE</span>
+            <h3 id="modalTitle">Reserve a Suite</h3>
+            <p>Our private majordomo team is ready to tailor your stay. Please confirm your preferred contact details below.</p>
+            <form id="modalForm">
+                <input type="text" placeholder="Full Name" required>
+                <input type="email" placeholder="Email Address" required>
+                <button type="submit" class="btn-gold" style="width: 100%;">CONFIRM REQUEST</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
